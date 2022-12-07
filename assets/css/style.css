@@ -99,7 +99,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+/* img, ion-icon, a, button, time, span { display: block; } */
 
 button {
   font: inherit;
@@ -200,7 +200,7 @@ article.active {
 
 .h2 { font-size: var(--fs-1); }
 
-.h3 { font-size: var(--fs-2); }
+/* .h3 { font-size: var(--fs-2); } */
 
 .h4 { font-size: var(--fs-4); }
 
@@ -1853,3 +1853,51 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: 13px;
   font-weight: 500;
 }
+
+#gc{
+  display: flex;
+justify-content: center;
+color: white;
+}
+
+.gc-pic{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  
+}
+
+#most-used-lang{
+  width: 38%;
+    margin: auto;
+}
+
+.gc_pic_in{
+  width: 63%;
+  margin: auto;
+}
+
+ /* skills  */
+ .skills{
+  border: 1px solid transparent;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 50px;
+}
+
+.logo_div{
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.logo_div>img{
+  border: 1px solid transparent;
+  width: 88px;
+  height: 88px;
+  margin-bottom: 3%;
+}
+
+.s-logo{
+height: 40vh;
+}
+
