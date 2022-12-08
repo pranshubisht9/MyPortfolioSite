@@ -1915,7 +1915,8 @@ transition: 0.5s ease;
 
 .calendar{
 color: white;
-margin-bottom: 25px;
+/* margin-bottom: 25px; */
+margin-bottom: 30px;
 }
 
 .contrib-number{
