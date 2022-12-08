@@ -1902,6 +1902,36 @@ color: white;
 height: 40vh;
 }
 
+.github-project{
+  cursor: pointer;
+}
+
+.github-project:hover{
+  -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.5s ease;
+}
+
+.calendar{
+color: white;
+margin-bottom: 25px;
+}
+
+.contrib-number{
+  color: #ffa600 !important;
+}
+
+.js-calendar-graph{
+  width: 100% !important;
+}
+
+@media screen and (max-width: 1023px){
+  .calendar{
+    display: none;
+  }
+}
+
 
 @media screen and (max-width: 768px){
 .skills{
@@ -1960,3 +1990,4 @@ height: 40vh;
     }
 
 }
+
