@@ -1,3 +1,10 @@
+let courseMonitoryGithub = () => {
+  window.open(
+    'https://github.com/pranshubisht9/nifty-competition-2668',
+    '_blank'
+  );
+
+  }
 let KettoGithub = () => {
     window.open(
         'https://github.com/pranshubisht9/ketto.org.git',
@@ -29,3 +36,4 @@ let StarWarGithub = () => {
 GitHubCalendar(".calendar", "pranshubisht9");
   // or enable responsive functionality
   GitHubCalendar(".calendar", "pranshubisht9", { responsive: true });
+
