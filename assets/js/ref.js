@@ -32,8 +32,13 @@ let StarWarGithub = () => {
         '_blank'
       );
 }
+let myResume = () =>{
+  window.open(
+    'https://drive.google.com/file/d/1Q3WVb0V6vF0e5ftaBXwE5QEd-TQFd5X7/view?usp=sharing',
+    '_blank'
+  );
+}
 
 GitHubCalendar(".calendar", "pranshubisht9");
   // or enable responsive functionality
   GitHubCalendar(".calendar", "pranshubisht9", { responsive: true });
-
