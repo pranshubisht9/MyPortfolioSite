@@ -304,7 +304,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
-  height: 140px;
+  height: 118px
 }
 
 .info-content .name {
@@ -313,6 +313,7 @@ main {
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .info-content .title {
@@ -1307,11 +1308,16 @@ font-size: 13px;
     margin-bottom: 30px;
   }
 
+  .info-content{
+    margin-top: 20px;
+  }
+
   .sidebar.active { max-height: 584px; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 30px;
+   }
 
   .avatar-box img { width: 120px; }
 
@@ -2005,5 +2011,18 @@ margin-bottom: 30px;
       margin: auto;
     }
 
+
+
 }
 
+@media screen and (max-width: 480px){
+  .avatar-box{
+    height: 72px;
+  }
+}
+
+@media screen and (max-width: 579px){
+  .avatar-box{
+    height: 72px;
+  }
+}
